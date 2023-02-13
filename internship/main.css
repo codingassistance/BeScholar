@@ -1,0 +1,82 @@
+*{
+    margin:10px;
+    padding:3px;
+}
+body{
+    
+        
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-image: url("bg.png");
+       
+ 
+}
+form{
+    
+    width: 800px;
+    transform: translate(50%,0);
+}
+.log:hover{
+    background:rgb(175, 199, 218);
+}
+.log{
+    width:150px;
+    background: scroll;
+}
+.center{
+    text-align:justify;
+    font-family:cursive;
+    font-size: 25px;
+    float: center;
+    
+    
+    
+    font-family:"acme",cursive;   
+}
+.center1{
+    font-size: 50px;
+    font-family:cursive;
+    float: center;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color:rgb(195, 204, 210);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 25px;
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(129, 165, 172);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #a9ced9ed;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 800px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .logo-image{
+    width: 90px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    
+  }
