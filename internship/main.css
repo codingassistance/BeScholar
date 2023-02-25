@@ -1,0 +1,133 @@
+*{
+    margin:10px;
+    padding:3px;
+}
+.logo {
+  max-width: 100px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-links {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-links a{
+  float: left;
+text-align: center;
+padding: 25px;
+color: rgb(18, 17, 17);
+text-decoration: none;
+font-size: 25px;
+}
+nav{
+ 
+  background-color:rgb(195, 204, 210);
+  overflow: auto;
+}
+.navbar-links a:hover{
+  background-color: rgb(163, 190, 196);
+}
+
+
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    max-width: 50px;
+  }
+}
+body{
+    
+        
+        background-size:cover;
+        background-repeat:repeat;
+        background-image: url("bg.png");
+       
+ 
+}
+
+form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Set the styles for larger screens */
+@media screen and (min-width: 768px) {
+  form {
+    padding: 0px;
+  }
+}
+
+
+.log:hover{
+    background:rgb(175, 199, 218);
+}
+.log{
+    width:150px;
+    background: scroll;
+}
+.center{
+    text-align:justify;
+    font-family:cursive;
+    font-size: 25px;
+    float: center;
+    
+    
+    
+    font-family:"acme",cursive;   
+}
+.center1{
+    font-size: 50px;
+    font-family:cursive;
+    float: center;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color:rgb(195, 204, 210);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 25px;
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(129, 165, 172);
+  }
+  
+  /* Current/active navbar link */
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 800px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .logo-image{
+    width: 90px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    
+  }

@@ -1,0 +1,19 @@
+body{
+    
+    background-color:rgb(255, 255, 255);
+    
+    font-family: "gabriel",cursive;
+    text-align: center;
+  background:linear-gradient(to right top,rgb(190, 246, 190),white);
+   background-image: url("final.png");
+   /* background-image: "res.png"; */
+    /* background-size:cover; */
+    background-size: 100%;
+    background-repeat: repeat;
+    padding: 2px;
+    margin: none;
+}
+
+h1{
+  text-align: center;
+}
